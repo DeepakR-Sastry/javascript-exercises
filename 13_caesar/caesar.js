@@ -1,4 +1,6 @@
-const caesar = function() {
+const caesar = function(string, num) {
+    
+    return String.fromCharCode(string.charCodeAt(0) + 1);
 
 };
 
